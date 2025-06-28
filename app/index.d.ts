@@ -1,3 +1,4 @@
+
 declare interface BaseUser {
   id: string;
   name: string;
@@ -19,6 +20,7 @@ declare interface Country {
   value: string;
   openStreetMap?: string;
 }
+
 
 declare interface DropdownItem {
   name: string;
